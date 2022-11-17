@@ -16,4 +16,27 @@
 }
 .nav__a{
     color: #2e363e;
+    position: relative;
+}
+.nav__alram{
+    background-color: tomato;
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    position: absolute;
+    left: 15px;
+    bottom: 15px;
+    color: white;
+}
+.nav__bubble{
+    background-color: tomato;
+    width: 6px;
+    height: 6px;
+    display: block;
+    border-radius: 50%;
+    position: absolute;
+    left: 25px;
 }
