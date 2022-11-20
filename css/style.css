@@ -3,10 +3,14 @@
 /* components */
 @import "components/status-bar.css";
 @import "components/nav.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
 /* screens */
 @import "screens/login.css";
+@import "screens/friends.css";
 body{    
     font-family: 'Noto Sans KR', sans-serif;
+    color: #2e363e;
     /* height: 1000vh; */
 }
 

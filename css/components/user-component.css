@@ -1,0 +1,22 @@
+.user-component{
+    display: flex;
+}
+.user-component__column{
+    display: flex;
+    align-items: center;
+}
+.hero{
+    width: 70px;
+    height: 70px;
+    border-radius: 25px;
+    margin-right: 20px;
+}
+.hero-text{
+    font-weight: 500;
+    font-size: 18px;
+}
+.hero-subtitle{
+    margin-top: 8px;
+    font-size: 15px;
+    color: rgba(0,0,0,0.5);
+}

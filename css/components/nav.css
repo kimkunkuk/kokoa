@@ -30,6 +30,7 @@
     left: 15px;
     bottom: 15px;
     color: white;
+    animation: alram 3s infinite ease-in-out;
 }
 .nav__bubble{
     background-color: tomato;
@@ -39,4 +40,13 @@
     border-radius: 50%;
     position: absolute;
     left: 25px;
+}
+
+@keyframes alram{
+    from{
+        transform: rotateX(0);
+    }
+    to{
+        transform: rotatey(365deg);
+    }
 }
