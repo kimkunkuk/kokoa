@@ -1,9 +1,14 @@
 .user-component{
     display: flex;
+    justify-content: space-between;
 }
-.user-component__column{
+.user-component,
+.user-component__column:first-child{
     display: flex;
     align-items: center;
+}
+.user-component__column:last-child{
+    color: rgba(0,0,0,0.3);
 }
 .hero{
     width: 70px;
@@ -15,8 +20,24 @@
     font-weight: 500;
     font-size: 18px;
 }
-.hero-subtitle{
+/* .hero-subtitle{
     margin-top: 8px;
     font-size: 15px;
     color: rgba(0,0,0,0.5);
+} */
+.hero-xl{
+    width: 80px;
+    height: 80px;
 }
+.friends-screen{
+    padding: 0px 25px;
+}
+.hero-h2{
+    width: 60px;
+    height: 60px;
+}
+
+.user-component__channeltext p{
+    font-weight: 400;
+}
+
