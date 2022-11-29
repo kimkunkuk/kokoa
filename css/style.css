@@ -15,6 +15,8 @@ body{
     font-family: 'Noto Sans KR', sans-serif;
     color: #2e363e;
     /* height: 1000vh; */
+    padding-bottom: 80px;
+    /* height: 100%; */
 }
 .main-screen{
     padding: 0 var(--horizontal-space);
