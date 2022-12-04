@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to KOtalk</title>
+    <title>Find to KOtalk</title>
     <script src="https://kit.fontawesome.com/8ec5409a4c.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -24,52 +24,46 @@
             <i class="fa-solid fa-bolt"></i>
         </div>
     </div>
-    <header class="screen-header">
-        <h1 class="screen-header__title">chats</h1>
-        <div class="screen-header__icon">
-            <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
-            <span><i class="fa-solid fa-comment-dots fa-lg"></i></span>
-            <span><i class="fa-solid fa-music fa-lg"></i></span>
-            <span><i class="fa-solid fa-gear fa-lg"></i></span>
+    <header class="alt-header">
+        <div class="alt-header__column">
+            <a href="javascript:history.back()">
+                <i class="fa-solid fa-angle-left fa-2x"></i>
+            </a>
+        </div>
+        <div class="alt-header__column">
+            <h1 class="alt-header__title">Settings</h1>
+        </div>
+        <div class="alt-header__column">
+            <i class="fa-solid fa-magnifying-glass fa-2x"></i>
         </div>
     </header>
 
-
     <main class="main-screen">
-        <!-- 채팅창 -->
-        <a href="chat.html">
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="https://m.chuing.net/mai/img_character_main/18/178178130507.jpg"/ class="hero hero" >
-                <div class="user-component__text">
-                    <p class="hero-text">히데오</p>
-                    <p class="hero-subtitle">뭐함?</p>
+        <ul class="settings-list">
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fa-solid fa-bullhorn"></i>
+                    <span>Notices</span>
                 </div>
-            </div>
-            <div class="user-component__column">
-                <span class="user-component__time">17:13</span>
-                <div class="badgechat">1</div>
-            </div>
-        </div>
-        </a>
-        <!-- 정대만 -->
-        <div class="user-component">
-            <div class="user-component__column">
-                <img src="https://mblogthumb-phinf.pstatic.net/MjAxNzA5MDNfMzIg/MDAxNTA0NDA5NTIzMTY3.OAPbt8NYNHWzboZk-YO8eUAwrsEGqM0PR7hYgmr9VIUg.vbPGSeAxGcBwhLbFyNTKl3n6_24xSFHf7mRHz3ps7OYg.JPEG.harold_icon/aj2.jpg?type=w800"/ class="hero hero" >
-                <div class="user-component__text">
-                    <p class="hero-text">정대만</p>
-                    <p class="hero-subtitle">ㅎㅇ</p>
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fa-solid fa-flask"></i>
+                    <span>Kakao Lab</span>
                 </div>
-            </div>
-            <div class="user-component__column">
-                <span class="user-component__time">15:13</span>
-                <div class="badgechat">1</div>
-            </div>
-        </div>
-
-
-
+                <div class="settings__setting-column"></div>
+            </li>
+            <li class="settings__setting">
+                <div class="settings__setting-column">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <span>Version</span>
+                </div>  
+                <div class="settings__setting-column">Latest Version</div>  
+            </li>
+        </ul>
     </main>
+   
    
 
     <nav class="nav">
@@ -82,7 +76,7 @@
             <li class="nav__li">
                 <a href="chats.html" class="nav__a">
                     <span class="nav__alram badge">1</span>
-                    <i class="fa-solid fa-comment fa-2x"></i>
+                    <i class="fa-regular fa-comment fa-2x"></i>
                 </a>
             </li>
             <li class="nav__li">

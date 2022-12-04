@@ -29,6 +29,23 @@
     font-size: 15px;
     color: rgba(0,0,0,0.5);
 }
+.user-component__text{
+    position: relative;
+}
+.user-component__text span{
+    color: red;
+    border: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    right: -25px;
+    bottom: -3px;
+    width: 15px;
+    height: 15px;
+    /* padding: 0.5px; */
+}
 .hero-xl{
     width: 80px;
     height: 80px;
